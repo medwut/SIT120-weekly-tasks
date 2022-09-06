@@ -1,31 +1,18 @@
 
-// Vue.createApp; {
-
-//     data(); {
-//         return{
-//       email: '',
-//       Password: '',
-//     },
-//   }
-// };
-
 Vue.createApp({
-    data() {
-      return {
-        email:'',
-        Password:''
-      }
+  data() {
+    return {
+      email: '',
+      Password: ''
     }
-  }).mount('#app')
+  }
+}).mount('#app')
 
-
-
-// ({
-//     data() {
+// export default {
+//   data() {
 //     return {
-//        {
-//         email: '',
-//         Password: '',
-//       }
+//       value: 'Hello World',
+//       message: ''
 //     }
-//   }).mount('#app')
+//   }
+// }
