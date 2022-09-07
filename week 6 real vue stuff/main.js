@@ -3,10 +3,19 @@ Vue.createApp({
   data() {
     return {
       email: '',
-      Password: ''
+      Password: '',
+      checkedNames: []
     }
   }
 }).mount('#app')
+
+// Vue.createApp{
+//   data() {
+//     return {
+//       checkedNames: []
+//     }
+//   }
+// }).mount('#check')
 
 // export default {
 //   data() {
